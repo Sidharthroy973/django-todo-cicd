@@ -1,8 +1,5 @@
-# Use the official Python image from Docker Hub
-FROM python:3
-
-# Install distutils
-RUN apt-get update && apt-get install -y python3-distutils
+# Use the official Python 3.9 image from Docker Hub
+FROM python:3.9
 
 # Set the working directory inside the container
 WORKDIR /data
